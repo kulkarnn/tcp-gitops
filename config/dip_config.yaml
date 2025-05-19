@@ -12,7 +12,7 @@ config:
        network:      
           devices:        
              - deviceType: vmxnet3          
-               networkName: net10          
+               networkName: "vds01-VM Network"
                resourceName: N3         
                interfaceName: N3       	    
                count: 1  
