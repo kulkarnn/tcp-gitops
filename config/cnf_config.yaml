@@ -6,10 +6,10 @@ version: "2.7.5"
 releaseDate: 2025-05-19T23:20:50.52Z
 manifests:  
   - name: open5gs    
-    sourceRepo: open5gs-git    
+    sourceRepo: tcp-gitops
     sourceRepoRevision: HEAD   
     path: charts/open5gs   
-    valuesRepo: open5gs-git  
+    valuesRepo: tcp-gitops  
     valuesRepoRevision: HEAD    
     valuesFiles:      
         - config/values.yaml
