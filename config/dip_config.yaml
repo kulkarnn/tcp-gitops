@@ -1,0 +1,21 @@
+name: open5gs-dip
+kind: dip
+version: 1
+nodePools:
+- np1
+config:
+   nodeConfiguration:    
+       kernel:      
+          kernelType:        
+             name: linux-rt        
+             version: 6.1.62-2.ph5    
+       network:      
+          devices:        
+             - deviceType: vmxnet3          
+               networkName: "vlan-vsan-130"
+               resourceName: N3   
+               interfaceName: N3
+               count: 1  
+               isSharedAcrossNuma: false          
+               derivedFromCsar: false    
+       iommuEnabled: false
