@@ -26,6 +26,8 @@ mongodb:
   enabled: true
   auth:
     enabled: false
+  diagnosticMode:
+    enabled: true
 smf:
   image:
     registry: ghcr.io
