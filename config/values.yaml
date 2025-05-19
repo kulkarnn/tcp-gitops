@@ -15,6 +15,9 @@ populate:
 
 # Common
 mongodb:
+  global:
+    security:
+      allowInsecureImages: false
   image:
     registry: ghcr.io
     repository: kulkarnn/mongodb
