@@ -45,7 +45,7 @@ webui:
     repository: kulkarnn/mongodb
     tag: "4.4.1-debian-10-r39"
     pullPolicy: IfNotPresent
-  enabled: true
+  enabled: false
 
 # 4G
 hss:
