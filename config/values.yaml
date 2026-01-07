@@ -29,14 +29,14 @@ smf:
   image:
     registry: ghcr.io
     repository: kulkarnn/open5gs
-    tag: "2.7.6"
+    tag: "2.7.5"
     pullPolicy: IfNotPresent
   enabled: true
 upf:
   image:
     registry: ghcr.io
     repository: kulkarnn/open5gs
-    tag: "2.7.6"
+    tag: "2.7.5"
     pullPolicy: IfNotPresent
   enabled: true
 webui:
@@ -52,7 +52,7 @@ hss:
   image:
     registry: ghcr.io
     repository: kulkarnn/open5gs
-    tag: "2.7.6"
+    tag: "2.7.5"
     pullPolicy: IfNotPresent
   enabled: true
   mongodb:
@@ -61,14 +61,14 @@ mme:
   image:
     registry: ghcr.io
     repository: kulkarnn/open5gs
-    tag: "2.7.6"
+    tag: "2.7.5"
     pullPolicy: IfNotPresent
   enabled: true
 pcrf:
   image:
     registry: ghcr.io
     repository: kulkarnn/open5gs
-    tag: "2.7.6"
+    tag: "2.7.5"
     pullPolicy: IfNotPresent
   enabled: true
   mongodb:
@@ -77,14 +77,14 @@ sgwc:
   image:
     registry: ghcr.io
     repository: kulkarnn/open5gs
-    tag: "2.7.6"
+    tag: "2.7.5"
     pullPolicy: IfNotPresent
   enabled: true
 sgwu:
   image:
     registry: ghcr.io
     repository: kulkarnn/open5gs
-    tag: "2.7.6"
+    tag: "2.7.5"
     pullPolicy: IfNotPresent
   enabled: true
 
@@ -93,42 +93,42 @@ amf:
   image:
     registry: ghcr.io
     repository: kulkarnn/open5gs
-    tag: "2.7.6"
+    tag: "2.7.5"
     pullPolicy: IfNotPresent
   enabled: true
 ausf:
   image:
     registry: ghcr.io
     repository: kulkarnn/open5gs
-    tag: "2.7.6"
+    tag: "2.7.5"
     pullPolicy: IfNotPresent
   enabled: true
 bsf:
   image:
     registry: ghcr.io
     repository: kulkarnn/open5gs
-    tag: "2.7.6"
+    tag: "2.7.5"
     pullPolicy: IfNotPresent
   enabled: true
 nrf:
   image:
     registry: ghcr.io
     repository: kulkarnn/open5gs
-    tag: "2.7.6"
+    tag: "2.7.5"
     pullPolicy: IfNotPresent
   enabled: true
 nssf:
   image:
     registry: ghcr.io
     repository: kulkarnn/open5gs
-    tag: "2.7.6"
+    tag: "2.7.5"
     pullPolicy: IfNotPresent
   enabled: true
 pcf:
   image:
     registry: ghcr.io
     repository: kulkarnn/open5gs
-    tag: "2.7.6"
+    tag: "2.7.5"
     pullPolicy: IfNotPresent
   enabled: true
   mongodb:
@@ -137,7 +137,7 @@ scp:
   image:
     registry: ghcr.io
     repository: kulkarnn/open5gs
-    tag: "2.7.6"
+    tag: "2.7.5"
     pullPolicy: IfNotPresent
   enabled: true
   mongodb:
@@ -146,14 +146,14 @@ udm:
   image:
     registry: ghcr.io
     repository: kulkarnn/open5gs
-    tag: "2.7.6"
+    tag: "2.7.5"
     pullPolicy: IfNotPresent
   enabled: true
 udr:
   image:
     registry: ghcr.io
     repository: kulkarnn/open5gs
-    tag: "2.7.6"
+    tag: "2.7.5"
     pullPolicy: IfNotPresent
   enabled: true
   mongodb:
