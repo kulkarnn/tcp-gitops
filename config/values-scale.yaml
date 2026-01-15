@@ -27,23 +27,23 @@ mongodb:
 #    enabled: true
 smf:
   image:
-    registry: docker.io
-    repository: gradiant/open5gs
+    registry: ghcr.io
+    repository: kulkarnn/open5gs
     tag: "2.7.5"
     pullPolicy: IfNotPresent
   enabled: true
 upf:
   image:
-    registry: docker.io
-    repository: gradiant/open5gs
+    registry: ghcr.io
+    repository: kulkarnn/open5gs
     tag: "2.7.6"
     pullPolicy: IfNotPresent
     replicaCount: 4
   enabled: true
 webui:
   image:
-    registry: docker.io
-    repository: gradiant/mongodb
+    registry: ghcr.io
+    repository: kulkarnn/mongodb
     tag: "4.4.1-debian-10-r39"
     pullPolicy: IfNotPresent
   enabled: false
@@ -51,8 +51,8 @@ webui:
 # 4G
 hss:
   image:
-    registry: docker.io
-    repository: gradiant/open5gs
+    registry: ghcr.io
+    repository: kulkarnn/open5gs
     tag: "2.7.5"
     pullPolicy: IfNotPresent
   enabled: true
