@@ -38,7 +38,7 @@ upf:
     repository: kulkarnn/open5gs
     tag: "2.7.6"
     pullPolicy: IfNotPresent
-    replicaCount: 4
+  replicaCount: 4
   enabled: true
 webui:
   image:
