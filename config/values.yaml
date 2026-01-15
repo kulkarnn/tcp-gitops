@@ -35,8 +35,8 @@ smf:
 upf:
   image:
     registry: ghcr.io
-    repository: kulkarnn/open5gs
-    tag: "2.7.5"
+    repository: gradiant/open5gs
+    tag: "2.7.6"
     pullPolicy: IfNotPresent
   enabled: true
 webui:
