@@ -12,7 +12,7 @@ manifests:
     valuesRepo: tcp-gitops  
     valuesRepoRevision: HEAD    
     valuesFiles:      
-        - config/values-upgrade.yaml
+        - config/values-scale.yaml
 namespace: open5gs
 dip:  
     name: open5gs-dip  
