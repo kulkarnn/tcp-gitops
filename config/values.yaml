@@ -27,7 +27,6 @@ mongodb:
 #    enabled: true
 smf:
   image:
-    registry: ghcr.io
     repository: kulkarnn/open5gs
     tag: "2.7.5"
     pullPolicy: IfNotPresent
@@ -41,7 +40,6 @@ upf:
   enabled: true
 webui:
   image:
-    registry: ghcr.io
     repository: kulkarnn/mongodb
     tag: "4.4.1-debian-10-r39"
     pullPolicy: IfNotPresent
