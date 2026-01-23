@@ -34,7 +34,6 @@ smf:
   enabled: true
 upf:
   image:
-    registry: ghcr.io
     repository: kulkarnn/open5gs
     tag: "2.7.6"
     pullPolicy: IfNotPresent
