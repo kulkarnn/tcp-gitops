@@ -8,7 +8,7 @@ config:
        kernel:      
           kernelType:        
              name: linux-rt        
-             version: 6.1.148-1.ph5  
+             version: 6.1.62-2.ph5    
        network:      
           devices:        
              - deviceType: vmxnet3          
