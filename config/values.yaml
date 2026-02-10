@@ -36,9 +36,8 @@ upf:
   image:
     registry: ghcr.io
     repository: kulkarnn/open5gs
-    tag: "2.7.6"
+    tag: "2.7.5"
     pullPolicy: IfNotPresent
-  replicaCount: 4
   enabled: true
 webui:
   image:
